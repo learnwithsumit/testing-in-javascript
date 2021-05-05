@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Testing in JavaScript</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form">
+        <h1>Submit your article</h1>
+        <input type="text" name="userid" id="userid" placeholder="User ID" />
+        <input type="email" name="title" id="title" placeholder="Title" />
+        <textarea
+          name="article"
+          id="article"
+          placeholder="Type your article"
+        ></textarea>
+        <input
+          type="button"
+          value="Submit"
+          class="btn-grad"
+          id="addNewPostBtn"
+        />
+      </div>
+      <div class="article-list result">
+        Your created articles are listed below.
+      </div>
+    </div>
+    <script src="./__bundle.js"></script>
+  </body>
+</html>
